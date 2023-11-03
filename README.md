@@ -1,0 +1,2 @@
+# agg_using_parquet4py
+Pythonでparquetを使用した集計処理のサンプル
