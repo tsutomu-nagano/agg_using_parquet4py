@@ -12,6 +12,9 @@ FROM python:3.10
 # ENV LANGUAGE ja_JP:ja
 # ENV LC_ALL ja_JP.UTF-8
 
+COPY requirements.txt /home/
+
+RUN pip install -r /home/requirements.txt
 
 WORKDIR /workspaces
 
