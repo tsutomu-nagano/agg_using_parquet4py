@@ -159,4 +159,7 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-app/data
+app/data/dest/*
+app/data/src/*
+app/data/log*
+app/data/setting.yaml
