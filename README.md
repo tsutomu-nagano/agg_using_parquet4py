@@ -11,15 +11,13 @@ Pythonでparquetを使用した集計処理のサンプル
   Python 3.10.13
   ```
 
-- library
-
+- requirements.txt
+  
   ``` shell
-  $ pip list
-  Package         Version
-  --------------- ------------
-  numpy           1.26.1
-  pandas          2.1.2
-  pyarrow         13.0.0
+  numpy==1.26.1
+  pandas==2.1.2
+  pyarrow==13.0.0
+  PyYaml==6.0.1
   ```
 
 ## description
